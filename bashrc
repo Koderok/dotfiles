@@ -113,3 +113,4 @@ function git-cache {
     git config credential.helper 'cache --timeout=$time'
 }
 
+PS1='\[\e[1;31m\]\u\[\e[m\]:\[\e[0;34m\]\w\[\e[m\]\[\e[1;32m\]\$\[\e[m\] \[\e[1;90m\]'
